@@ -1,0 +1,41 @@
+.entry-point {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+
+  background-color: #111;
+
+  .title {
+    color: #fff;
+
+    font-size: 64px;
+  }
+
+  .supporting {
+    color: #aaa;
+
+    font-size: 48px;
+  }
+}
+
+.calculator-body {
+  position: absolute;
+
+  bottom: 0;
+  right: 0;
+
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+
+  opacity: 0;
+
+  backdrop-filter: blur(10px);
+}

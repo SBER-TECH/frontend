@@ -1,0 +1,25 @@
+.texts {
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+
+  padding: calc(50vh - 16px) 0;
+  padding: 50dvh 0;
+
+  .title,
+  .supporting {
+    color: #fff;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  .supporting {
+    font-size: 48px;
+  }
+}
