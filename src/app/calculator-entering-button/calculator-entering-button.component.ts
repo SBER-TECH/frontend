@@ -6,8 +6,6 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   imports: [],
   templateUrl: './calculator-entering-button.component.html',
   styleUrl: './calculator-entering-button.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class CalculatorEnteringButtonComponent {
-
-}
+export class CalculatorEnteringButtonComponent {}

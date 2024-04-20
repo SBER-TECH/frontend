@@ -8,10 +8,9 @@ describe('CalculatorEnteringButtonComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CalculatorEnteringButtonComponent]
-    })
-    .compileComponents();
-    
+      imports: [CalculatorEnteringButtonComponent],
+    }).compileComponents();
+
     fixture = TestBed.createComponent(CalculatorEnteringButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
