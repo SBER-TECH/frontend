@@ -87,7 +87,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "name": "SBER.TECH",
+            "email": "sber.tech.team@gmail.com"
+          }
         }
       }
     }
