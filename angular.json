@@ -89,7 +89,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "/project/",
+            "baseHref": "dist/project/browser",
             "name": "SBER.TECH",
             "email": "sber.tech.team@gmail.com"
           }
